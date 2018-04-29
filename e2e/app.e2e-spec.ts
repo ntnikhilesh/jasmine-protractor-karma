@@ -8,12 +8,17 @@ describe('jasmine-protractor-karma App', () => {
     page = new AppPage();
   });
 
-  // it('should display welcome message', () => {
+  //1
+  // it('should navigate home page', () => {
   //   page.navigateTo();
-  //   expect(page.getParagraphText()).toEqual('Welcome to app!');
   // });
 
-  it('should navigate home page', () => {
+
+  //2
+   it('should display about button', () => {
     page.navigateTo();
+    expect(page.getAboutButton()).toEqual('About');
+
   });
+
 });
