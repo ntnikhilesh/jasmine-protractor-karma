@@ -15,10 +15,18 @@ describe('jasmine-protractor-karma App', () => {
 
 
   //2
-   it('should display about button', () => {
-    page.navigateTo();
-    expect(page.getAboutButton()).toEqual('About');
+  //  it('should display about button', () => {
+  //   page.navigateTo();
+  //   expect(page.getAboutButton()).toEqual('About');
 
+  // });
+
+
+  //3
+  it('should route to  about page', () => {
+    page.navigateTo();
+    page.getAboutButton().click();
+    browser.pause();
   });
 
 });

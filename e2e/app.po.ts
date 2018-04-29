@@ -5,7 +5,11 @@ export class AppPage {
     return browser.get('/');
   }
 
+  // getAboutButton() {
+  //   return element(by.css('[routerlink="/about"]')).getText();
+  // }
+
   getAboutButton() {
-    return element(by.css('[routerlink="/about"]')).getText();
+    return element(by.css('[routerlink="/about"]'));
   }
 }
