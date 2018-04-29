@@ -1,4 +1,7 @@
-xdescribe('hello test',()=>{
+//use x for skip test
+//use f for force test and skip others
+
+fdescribe('hello test',()=>{
 
 //1
     // it('check if hello test is hello',()=>{
