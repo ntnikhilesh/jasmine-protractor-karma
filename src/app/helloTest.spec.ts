@@ -19,6 +19,11 @@ describe('hello test',()=>{
         expected='hello'
     })
 
+    //cleaning variable
+    afterEach(()=>{
+        expected='';
+    })
+
     it('check if hello test is hello',()=>{
         expect('hello').toBe(expected)
     })
