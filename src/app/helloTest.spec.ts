@@ -1,4 +1,4 @@
-describe('hello test',()=>{
+xdescribe('hello test',()=>{
 
 //1
     // it('check if hello test is hello',()=>{
